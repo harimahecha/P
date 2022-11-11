@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="./CSS/navbar.css">
+    <link rel="stylesheet" href="./CSS/body.css">
+    <link rel="stylesheet" href="./CSS/home.css">
+    <link rel="stylesheet" href="./CSS/about.css">
+    <link rel="stylesheet" href="./CSS/work.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/responsive/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/d583d723f4.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <img src="./images/LogoF.jpg" alt="">
+        </div>
+        <div class="list">
+            <ul class="list_items" id="menu">
+                <li><a href="#home_page">Home</a></li>
+                <li><a href="#about_page">About Me</a></li>
+                <li><a href="#portfolio_page">Portfolio</a></li>
+                <li><a href="#contact_page">Contact Me</a></li>
+                <i class="menu_icn menu_x fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="menu_icn menu_bar fa-solid fa-bars" onclick="openmenu()"></i>
+        </div>
+    </div>    
+
+    <div id="home_page" class="home">
+        <div class="home_text">
+            <h1 class="home_text_edit">
+                HI, I AM 
+                <strong>
+                    <h1 class="main_name home_text_edit">
+                        HARI SHANKAR MAHECHA
+                    </h1>
+                </strong>
+                <br>
+                I HAVE INTEREST IN
+                <br>
+                <span class="home_text_auto">
+
+                </span>
+            </h1>
+        </div>
+    </div>
+
+    <div id="about_page" class="about_me">
+        <img src="./images/photoL.png" alt="">
+        <div class="about_text">
+            <div class="about_text_head">
+                About Me
+            </div>
+            <div class="about_text_detail">
+                Hi I am <span style="background-color:transparent; color: #4782ff;"> Hari Shankar Mahecha </span> <br>
+                I am a <span style="background-color:transparent; color: darkcyan;"> UG Student </span> <br>
+                I have Interest in programming
+            </div>
+            <div class="about_containter">
+                <div class="about_containt_box">
+                    <div class="about_skill_head about_containt_box_head">Skill</div>
+                    <div class="about_skill about_containt_box_detail">
+                        <div class="skill_box skill_box_pr">Programming
+                        </div>
+                        <div class="skill_box skill_box_wd">Web Dev</div>
+                        <div class="skill_box skill_box_ds">DSA</div>
+                        <!-- <div class="skill_box skill_box_nt">New Tech</div> -->
+                    </div>
+                </div>
+                <div class="about_containt_box">
+                    <div class="about_education_head about_containt_box_head">Education</div>
+                    <div class="about_education about_containt_box_detail">B.E. In Computer Science
+                    From SLIET,Longowal Punjab
+                    </div>
+                </div>
+                <div class="about_containt_box">
+                    <div class="about_interest_head about_containt_box_head">Interest</div>
+                    <div class="about_interest about_containt_box_detail">
+                        <div class="interest_box interest_box_cp">Competitive Programming</div>
+                        <div class="interest_box interest_box_wd">Web Development</div>
+                        <div class="interest_box interest_box_nt">Android Dev</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio_page" class="my_work">
+        <div class="work_title">
+            My Work
+        </div>
+        <div class="work_detail">
+            <div class="work1 work_prjct">
+                <img src="./images/comp1.jpg" alt="">
+                <div class="work_img_hover">
+                    <h1>
+                        Note Taking Site
+                    </h1>
+                    <p>
+                        Take Notes On This Site with title
+                    </p>
+                    <a href="https://harimahecha.github.io/B_PROJECT_1/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work2 work_prjct">
+                <img src="./images/comp2.jpg" alt="">
+                <div class="work_img_hover">
+                    <p>
+                        Other Projects coming soon
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact_page" class="contact">
+        <div class="contact_head">
+            Contact
+        </div>
+        <div class="contact_page">
+            <div class="contact_left">
+                <a href="mailto:harimahechawc@gmail.com"><i class="fa-regular fa-envelope"></i>E-Mail</a>
+                <a href="https://github.com/harimahecha"><i class="fa-brands fa-github"></i>Github</a>
+                <a href="https://linkedin.com/in/harimahecha"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                <a href="https://www.instagram.com/hari_mahecha/"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href="https://twitter.com/hari_mahecha"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                <a href="./Resume/Resume.pdf" class="resume_btn" target="_blank">Download Resume</a>
+            </div>
+            <div class="contact_hide">
+                <br><hr>
+                CONTACT HERE
+                <br><hr>
+            </div>
+            <div class="contact_right">
+                <form name="contact-form-submit" class="contact_form">
+                    <input type="text" name="Name" id="" placeholder="Name" required>
+                    <input type="email" name="Email" id="" placeholder="Email" required>
+                    <textarea name="Message" rows="5" placeholder="Write Your Message Here"></textarea>
+                    <span id="form_msg"></span>
+                    <button type="submit" class="submit_btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        A Static Portfolio Site Created By | @HariMahecha
+    </div>
+
+
+    
+    <script src="./JS/auto.js"></script>
+    <script src="./JS/menu.js"></script>
+    <script src="./JS/contactForm.js"></script>
+</body>
+</html>

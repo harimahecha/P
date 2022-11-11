@@ -1,0 +1,217 @@
+@media screen and (max-width:766px)
+{
+    .about_me img
+    {
+        display: none;
+    }
+    .about_me
+    {
+
+        background-size: cover;
+        background-position: center;
+        background-image: url('../../images/photoB1.1.png');
+        background-repeat: no-repeat;
+        background-attachment: local;
+        background-position-x: right;
+        background-position-y: inherit;
+    }
+
+    /* .about_containter
+    {
+        margin-left: 0px;
+    } */
+    .about_containt_box
+    {
+    border: 2px solid black;
+    }
+    .skill_box , .interest_box
+    {
+    border: 1px solid black;
+    }
+    .about_me
+    {
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width:585px)
+{
+    /* work */
+    .work_detail
+    {
+        flex-wrap: wrap;
+    }
+    .work_prjct
+    {
+        margin: 10px;
+    }
+    .work_title
+    {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .work_prjct img
+    {
+        width: 100%;
+        height: 100vh;
+        height: 100%;
+    }
+    .work_img_hover
+    {
+        height: 100%;
+    }
+
+    /* about */
+    .about_me
+    {
+        margin-top: 10px;
+    }
+    .about_text_detail span 
+    {
+        color: red !important;
+    }
+    .skill_box ,.about_education ,.interest_box
+    {
+        font-weight:bolder;
+    }
+    .about_text_head
+    {
+        font-size: larger;
+    }
+
+    .about_text_detail,.about_text_detail span
+    {
+        font-size: small;
+    }
+
+    /* home */
+    .home_text_edit
+    {
+        font-size: small;
+    }
+    .home
+    {
+        height: 60vh;
+    }
+    .home_text_auto
+    {
+        font-size: smaller;
+    }
+
+    /* contact */
+    .contact_page
+    {
+        flex-direction: column;
+    }
+
+    .contact_left ,.contact_right
+    {
+        align-items: center;
+        width: 90%;
+    }
+    .contact_head
+    {
+        margin-bottom: 10px;
+    }
+    .contact_hide
+    {
+        display: block;
+        background-color: transparent;
+        font-family: 'Roboto', sans-serif;
+    }
+    .contact_left a
+    {
+        margin: auto;
+        margin-left: 22%;
+    }
+}
+
+
+@media (max-width:535px)
+{
+    .menu_icn
+    {
+        display: block !important;
+        font-size: 20px;
+        background-color: #585858;
+    }
+    
+    .list ul
+    {
+        background: #585858;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 40px;
+        display: flex;
+        margin-right: 0;
+        flex-direction: column;
+        z-index: 2;
+        transition: right .5s;
+    }
+    .list ul li a ,.list ul li
+    {
+        background-color: #585858;
+    }
+    .list ul .menu_icn
+    {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+    }
+    .list .menu_bar
+    {
+        background-color: transparent !important;
+        margin-right: 40px;
+    }
+}
+
+
+@media (max-width:410px)
+{
+    .about_containter
+    {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:370px)
+{
+    .about_containt_box_head,.about_containt_box_head,.skill_box,.interest_box ,.about_education
+    {
+        font-size: small;
+    }
+    .about_containt_box_head
+    {
+        font-size: smaller !important;
+    }
+    .about_me
+    {
+        margin-top: 0px !important;
+    }
+    .home 
+    {
+        height: 50vh !important;
+    }
+    .resume_btn
+    {
+        margin: auto !important;
+        margin-top: 10px !important;
+    }
+}
+
+@media (max-width:320px)
+{
+    .about_containt_box_head
+    {
+        font-size: small !important;
+    }
+    .about_containt_box
+    {
+        margin-left: -2px;
+    }
+}

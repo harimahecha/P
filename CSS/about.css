@@ -1,0 +1,179 @@
+.about_me
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+    margin-top: 0 !important;
+    /* border: 2px solid red; */
+    border: 2px solid rgb(75, 75, 75);
+    height: 483px;
+    background-color: rgb(44, 44, 44);
+    /* z-index: 5;
+    position: sticky;
+    top: 61px; */
+    border-radius: 15px;
+}
+.about_text
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    padding: 10px;
+    text-align: justify;
+    background-color: transparent;
+}
+.about_me img
+{
+    /* width: 30%; */
+    height: 100%;
+    /* z-index: -1; */
+    border-radius: 13px 0px 0px 13px;
+}
+
+.about_text_head
+{
+    font-family: 'Inter', sans-serif;
+    display: block;
+    font-size: 50px;
+    margin: auto;
+    margin-left: 0;
+    background-color: transparent;
+}
+
+.about_text_detail
+{
+    background-color: transparent;
+    margin: auto;
+    margin-left: 0;
+}
+
+
+.about_containter
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: auto;
+    margin-left: 40px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.about_containt_box
+{
+    margin: 7px;
+    background-color: transparent;
+    margin-left: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 15px;
+    width: 100%;
+    transition: .5s all;
+}
+
+.about_containt_box:hover 
+{
+    background-color:#c15d26;
+    /* color: black !important; */
+    border-radius: 0px 20px 0px 20px;
+    scale: 1.05;
+    border-color: black;
+}
+
+.about_containt_box_head
+{
+    margin: auto;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+}
+
+.about_containt_box_detail
+{
+    font-size: smaller;
+    background-color: transparent;
+    display: flex !important;
+    flex-direction: row !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.about_skill
+{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    margin: auto;
+    margin-left: 0;
+}
+.skill_box
+{
+    font-size:medium;
+    margin: 3px;
+    background-color: transparent;
+    border: 1px solid grey;
+    width: auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+/* .skill_box_pr::after
+{
+    content:'';
+    top: 0;
+    left: 0;
+    background: green;
+    width: 0;
+    position: absolute;
+    transition: .5s all ease-in-out;
+}
+
+.skill_box_pr:hover::after
+{
+    content: 'Intermediate';
+    width: auto;
+    scale: 1.5;
+} */
+
+.about_education
+{
+    font-family: 'Raleway', sans-serif;
+    padding: 2px;
+}
+
+.about_interest
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-left: 0;
+}
+.interest_box
+{
+    font-size:medium;
+    margin: 3px;
+    background-color: transparent;
+    border: 1px solid grey;
+    width: auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+

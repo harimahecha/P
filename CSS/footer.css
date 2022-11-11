@@ -1,0 +1,14 @@
+.footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 40px; */
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid rgb(75, 75, 75);
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: medium;
+}
