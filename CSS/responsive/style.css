@@ -96,7 +96,7 @@
     }
     .home_text_auto
     {
-        font-size: small;
+        font-size: medium;
     }
 
     /* contact */
@@ -195,7 +195,7 @@
     }
     .home 
     {
-        height: 40vh !important;
+        height: 30vh !important;
     }
     .resume_btn
     {
